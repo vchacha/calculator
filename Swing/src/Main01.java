@@ -12,10 +12,10 @@ public class Main01 {
 		f.setVisible(true);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setResizable(false);
-		
+
 		/* Place at center */
 		f.setLocationRelativeTo(null);
-				
+
 		JPanel panel = new JPanel(new BorderLayout());
 		panel.add(new JButton("Button1"), BorderLayout.NORTH);
 		panel.add(new JButton("Button2"), BorderLayout.SOUTH);
@@ -25,13 +25,12 @@ public class Main01 {
 
 		f.add(panel);
 
-		for (int i=1; i <=5; i ++ ) {
+		for (int i = 1; i <= 3; i++) {
 			Thread.sleep(1000);
-			f.setSize(500 + i*100, 500 + i*100);
+			f.setSize(500 + i * 100, 500 + i * 100);
 			f.setLocationRelativeTo(null);
 		}
-		
+
 	}
-	
-	
+
 }
