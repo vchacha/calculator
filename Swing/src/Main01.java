@@ -12,7 +12,7 @@ public class Main01 {
 		f.setVisible(true);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setResizable(false);
-
+                //TODO fixed
 		f.setLocationRelativeTo(null);
 
 		JPanel panel = new JPanel(new BorderLayout());
