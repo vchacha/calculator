@@ -13,7 +13,6 @@ public class Main01 {
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setResizable(false);
 
-		/* Place at center */
 		f.setLocationRelativeTo(null);
 
 		JPanel panel = new JPanel(new BorderLayout());
